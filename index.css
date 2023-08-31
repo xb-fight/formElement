@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+
+input {
+    border: 1px solid #999;
+    outline: 0;
+    offset: 0;
+}
+
+.btn {
+    width: 150px;
+    height: 40px;
+    background-color: #5589ef;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+body {
+    font-size: 16px;
+    background-color: black;
+}
+
+.container {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container .form {
+    width: 340px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+
+.container .form .phone {
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    padding: 0 1em;
+    margin-top: 16px;
+}
+
+.container .form .verification {
+    width: 100%;
+    margin: 16px 0;
+    margin-bottom: 10px;
+}
+
+
+.container .form .verification>input {
+    float: left;
+    width: 160px;
+    height: 40px;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.container .form .verification>button {
+    float: right;
+}
+
+.container .form>input[type="password"] {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0;
+    border-radius: 5px;
+    padding: 1em;
+}
+
+
+.container .form .select {
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    overflow-y: auto;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.container .form .radio {
+    margin: 10px 0;
+    text-align: left;
+}
+
+.container .form .radio .sex {
+    color: #ccc;
+}
+
+.container .form .profile {
+    color: 12px;
+    width: 100%;
+    height: 120px;
+    border-radius: 8px;
+    padding: .5em;
+    margin-bottom: 10px;
+    resize: none;
+}
+
+.container .form .profile:focus {
+    border: 1px solid #008c8c;
+}
+
+.container .form .protocol {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+}
+
+.container .form .protocol>input {
+    vertical-align: middle;
+    margin-right: 2px;
+}
+
+.container .form .sumbit {
+    margin: 10px 0;
+}
+
+
+
+button:disabled {
+    background-color: red;
+    cursor: not-allowed;
+}
+
+input:focus {
+    
+    border-radius: 50%;
+}
+
+input:checked {
+    color: #5589ef;
+}
